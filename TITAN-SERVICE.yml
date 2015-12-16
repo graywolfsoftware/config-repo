@@ -1,7 +1,7 @@
 server:
-  port: 8084
+  port: 8085
 eureka:
   instance:
     hostname: 127.0.0.1
-    nonSecurePort: 8084
+    nonSecurePort: 8085
     eurekaServerPort: 8761
