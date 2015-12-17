@@ -8,4 +8,5 @@ eureka:
   client:
     eurekaServerPort: 8761
     eurekaServerURLContext: eureka
+    initialInstanceInfoReplicationIntervalSeconds: 5
         
