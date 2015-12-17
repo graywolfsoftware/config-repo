@@ -18,3 +18,4 @@ eureka:
         path: /dashboard
     server:
         waitTimeInMsWhenSyncEmpty: 1
+        
