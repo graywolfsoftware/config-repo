@@ -11,4 +11,11 @@ eureka:
     eurekaServerPort: 8761
     eurekaServerURLContext: eureka
     initialInstanceInfoReplicationIntervalSeconds: 5
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+    dashboard:
+        path: /dashboard
+    server:
+        waitTimeInMsWhenSyncEmpty: 1
+
         
