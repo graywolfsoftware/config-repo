@@ -8,7 +8,7 @@ eureka:
     eurekaServerURLContext: eureka
     initialInstanceInfoReplicationIntervalSeconds: 5
     serviceUrl:
-      defaultZone: http://arc-tp-poc03.metratech.com:8761/eureka/
+      defaultZone: http://localhost:8761/eureka/
     dashboard:
         path: /dashboard
     server:
