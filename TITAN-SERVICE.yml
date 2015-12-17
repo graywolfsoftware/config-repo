@@ -6,6 +6,9 @@ eureka:
     nonSecurePort: 8085
     eurekaServerPort: 8761
   client:
+    registerWithEureka: true
+    fetchRegistry: true
+    useDnsForFetchingServiceUrls: true
     eurekaServerPort: 8761
     eurekaServerURLContext: eureka
     initialInstanceInfoReplicationIntervalSeconds: 5
