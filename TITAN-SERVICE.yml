@@ -5,3 +5,16 @@ eureka:
     hostname: 127.0.0.1
     nonSecurePort: 8085
     eurekaServerPort: 8761
+  client:
+    registerWithEureka: true
+    initialInstanceInfoReplicationIntervalSeconds: 5
+    fetchRegistry: true
+    useDnsForFetchingServiceUrls: true
+    eurekaServerPort: 8761
+    eurekaServerURLContext: eureka
+    serviceUrl:
+        defaultZone: http://localhost:8761/eureka/
+    dashboard:
+        path: /dashboard
+    server:
+        waitTimeInMsWhenSyncEmpty: 1
