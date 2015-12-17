@@ -7,13 +7,13 @@ eureka:
     eurekaServerPort: 8761
   client:
     registerWithEureka: true
-    initialInstanceInfoReplicationIntervalSeconds: 5
+#    initialInstanceInfoReplicationIntervalSeconds: 5
     fetchRegistry: true
     useDnsForFetchingServiceUrls: true
     eurekaServerPort: 8761
     eurekaServerURLContext: eureka
-    serviceUrl:
-        defaultZone: http://localhost:8761/eureka/
+#    serviceUrl:
+#        defaultZone: http://localhost:8761/eureka/
     dashboard:
         path: /dashboard
     server:
