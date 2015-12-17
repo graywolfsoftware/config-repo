@@ -1,0 +1,15 @@
+server:
+  port: 8085
+eureka:
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    eurekaServerPort: 8761
+    eurekaServerURLContext: eureka
+    initialInstanceInfoReplicationIntervalSeconds: 5
+    serviceUrl:
+      defaultZone: http://arc-tp-poc03.metratech.com:8761/eureka/
+    dashboard:
+        path: /dashboard
+    server:
+        waitTimeInMsWhenSyncEmpty: 1
