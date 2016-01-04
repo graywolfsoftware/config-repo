@@ -5,3 +5,7 @@ params:
     username: sa
     password: MetraTech1
     maximumPoolSize: 5
+eureka:
+  instance:
+    hostname: localhost
+    nonSecurePort: 8082
