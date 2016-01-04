@@ -1,0 +1,7 @@
+params:
+  datasource:
+    driverClassName: com.microsoft.sqlserver.jdbc.SQLServerDriver
+    jdbcUrl: jdbc:sqlserver://SALDEMO06.metratech.com;database=NetMeter;
+    username: sa
+    password: MetraTech1
+    maximumPoolSize: 5
